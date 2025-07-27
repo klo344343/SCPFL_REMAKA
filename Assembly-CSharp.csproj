@@ -1,0 +1,2548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F44CCE70-1E4F-646F-1E5D-BA20CE98EFED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2022_3_62;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;EDGEGAP_PLUGIN_SERVERS;MIRROR;MIRROR_89_OR_NEWER;MIRROR_90_OR_NEWER;MIRROR_93_OR_NEWER;MIRROR_96_OR_NEWER;LITENETLIB4MIRROR;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2022.3.62f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="D:\Unite\Editor\2022.3.62f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="D:\Unite\Editor\2022.3.62f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcViewComponentAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_Water_Drop.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_CharacterMotor.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Scp457PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\GammaSlider.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CreditsEntry.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Oculus_NightVision5.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CentralServerKeyCache.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerList.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\TranslationBrowserButton.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MotionBlurController.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UBER_MaterialProp.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_80.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RecoilProperties.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\Integrations\UNet_HLAPI\HlapiServer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Colors_Threshold.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Scp079Interactable.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\LiteNetLib4MirrorClient.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ModPrefab.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\NoReorderAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\PublicAPIAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Credits.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMethodPropertyAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Manga4.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\VideoRepairer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\LocalCurrentRoomEffects.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\LCZ_LabelManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Edge_Neon.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AntiTPose.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\MotionBlurModel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\YRotSpine.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Lut_Plus.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CheaterReport.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_ARCADE.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\GameonButton.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcControllerAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Scp049PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DoorColor.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DisableUselessComponents.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\UpnpConstants.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Classic_ThermalVision.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Colors_Adjust_ColorRGB.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blur_DitherOffset.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_EyesVision_1.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\LoadingCircle.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ExampleWheelController.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\BreakingCardSFX.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\UpnpSearcher.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\VolumetricLight.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\SpeechProxyConfig.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Noise.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Oculus_ThermaVision.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ConnInfoButton.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\LightBlink.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_Lighten.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\BreakableWindow.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\UsedImplicitlyAttribute.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\NatDiscoverer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Vignetting.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\IESLights\IESToCubemap.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Grenade.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SimpleMenu.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\HorrorSoundController.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Noise_TV.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Light_Rainbow2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ParticleMenu.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Glitch2.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Finalizer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MusicSlider.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\GameOnPlayer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Chromatical2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Videoflip.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Scp294.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\AmplifyGlareCache.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_FPController.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Dot_Circle.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Ragdoll.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\RazorHelperCommonAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\IAmplifyItem.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\MinAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Scp914.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AnimationController.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\LocalizationRequiredAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\BroadcastAssigner.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_3D_Myst.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SensitivitySlider.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\AmplifyPassCache.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MaterialBlink.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\VignetteModel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_NewGlitch7.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Artefact.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blur_GaussianBlur.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_ColorDodge.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ServerInfo.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\PathReferenceAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Tournament\Connector.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\ValueProviderAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnitySA\Utility\CurveCtrlBob.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\Example04SbaitsoClone.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_Hull.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\SourceTemplateAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MarkupTransceiver.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DiscordSpectateEvent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Edge_Edge_filter.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PositionTrigger.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\StarLibType.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\Example06NoGUI.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DebugInfoLoader.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Colors_RgbClamp.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Manga3.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcAreaMasterLocationFormatAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\StartScreen.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\Voice.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blur_Dithering2x2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CharacterClassManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_BlueScreen.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerArms.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\XamlItemsControlAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Color_GrayScale.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AlphaWarheadNukesitePanel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RemoteAdmin\PropertyButton.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\NetUtils.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_OldFilm_Cutting2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\AmplifyBokeh.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_NewGlitch2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UBER_ExampleObjectParams.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\LureSubjectContainer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\ColorGradingCurve.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_DigitalMatrix.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RoundPlayerHistory.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Glow_Glow_Color.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ServerFilters.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\HintManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Offset.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\CollectionAccessAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CreditsCategory.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_NewCellShading.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\AmplifyBloomEffect.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Old_Movie.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\FPSCounter.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AssertionConditionAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcModelTypeAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\ColorGradingModel.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\Utils\NetSerializer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Glitch3.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\GFXSettings.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\HandPart.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\FogComponent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Curve.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_ARCADE_2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Color_Contrast.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Team.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\TrackballAttribute.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Mapping.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\INetEventListener.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspRequiredAttributeAttribute.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Utils\WellKnownConstants.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SpectatorCamera.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_EXTRA_SHOWFPS.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\MainThresholdSizeEnum.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\UserLutComponent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DiscordManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\InterfaceColorAdjuster.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Colors_Adjust_FullColors.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\LiteNetLib4MirrorCore.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Alien_Vision.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MTFRespawn.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\PortMapper.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\RenderTextureFactory.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blur_Radial.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Glasses_On_4.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SignBlink.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Light_Water.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\HeadlessRuntime.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Lut_Mask.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\FlashEffect.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Rgb.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_CellShading2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RemoteAdmin\DoorPrinter.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmmoBox.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blur_Noise.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_Flag.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\TournamentInfo.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\PureAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_NewGlitch5.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Vision_Aura.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Lut_2_Lut_Extra.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Enums\ProtocolType.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\RazorInjectionAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Hitmarker.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Class.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcTemplateAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_DigitalMatrixDistortion.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_AAA_BloodOnScreen.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\WarningAwawke.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Medkit.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\SimpleChannel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\LCZ_Label.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blur_BlurHole.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnitySA\Utility\LerpCtrlBob.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\VersionCheck.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MenuAnimator.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_LOD.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Scan.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Lines.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\HoloSight.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_AAA_Blood_Plus.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_GreenScreen.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CreditText.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_3D_Snow.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Hexagon_Black.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Lut_Simple.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_NewGlitch1.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\Messages\Requests\GetGenericPortMappingEntry.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcViewLocationFormatAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\XamlItemBindingOfItemsControlAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\FragGrenade.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AlphaWarheadController.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_PlanetMars.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\NetSocket.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\FakeSoundScope.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Utils\Guard.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\NineTailedFoxAnnouncer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UBER_MouseOrbit_DynamicDistance.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\MaterialFactory.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Toon.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerInteract.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\BanDetails.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_AAA_Blood.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Scp106PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ConnInfoCanceler.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Generator079.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Sharpen_Sharpen.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerPositionData.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_VHS_Rewind.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Atmosphere_Fog.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Gradients_Desert.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CPPS_NV.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Antialiasing_FXAA.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_PinLight.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\StringFormatMethodAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\ImplicitUseKindFlags.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MuteHandler.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Pmp\PmpNatDevice.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\TextureAnimator.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Vision_Blood_Fast.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\ISpeechSynthesisPlugin.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmbientSoundPlayer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\YouWereKilled.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Vision_AuraDistortion.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Cryptography\ECDSA.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\WWWPlayMode.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Grid.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\FPSLimiter.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\GraphicsUtils.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnitySA\Characters\FirstPerson\FPCtrl.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\RazorWriteMethodAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RemoteAdmin\ItemPrinter.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Locker.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Recontainer079.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_CellShading.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\VolumetricLightRenderer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_BluePrint.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\A_Href.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SkinColorChanger.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Vision_Plasma.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\NetworkDiscoveryHUD.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MapScroll.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\TutorialUnlocker.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\NoEnumerationAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blur_Steam.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ExpGainType.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Paper.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\QueryServer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\NetManagerValueSetter.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RadioDisplay.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Video3D.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Color_RGB.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Drunk2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\RazorDirectiveAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_HardMix.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Vision_Tunnel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\ProxySpeechSynthesisPlugin.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_Darken.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\DemoFPSCounter.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\Utils\NetDataWriter.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DecalDestroyer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_Dream2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DetectorBlink.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Drunk.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AuthenticatedMessage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RagdollManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Lut_TestMode.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\NetConstants.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UBER_MaterialPresetCollectionReference.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\GlareDefData.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Color_Switching.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\IESLights\IESConverter.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\PostProcessingComponentRenderTexture.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\SpeechSynthesisUtils.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\HitboxIdentity.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\GunShoot.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\DemoUIToggle.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UserMainInterface.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\IESLights\IESToTexture.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UBER_applyLightForDeferred.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DetectorController.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\WeaponManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\AntialiasingModel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ImageGenerator.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_WideScreenVertical.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UBER_MaterialPresetCollection.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_Overlay.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ItemDescriptionValue.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DebugLogScreen.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Crosshatch.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blur_Radial_Fast.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Manga_Flash.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Old.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_Member.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_BrokenGlass2.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Discovery\Searcher.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\LiteNetLib4MirrorServer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_ShockWave.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\WorkStation.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\Integrations\UNet_HLAPI\HlapiClient.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RoomManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_NewGlitch3.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\LiteNetLib4MirrorUtils.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blur_Blurry.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\Utils\NetPacketProcessor.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Gradients_Stripe.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\PostProcessingModel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\RazorWriteMethodParameterAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_EarthQuake.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_LED.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ExamplesController.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Utils\IIPAddressesProvider.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\BanHandler.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Glasses_On_5.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\RequestMessageBase.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\IWWW.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RandomSeedSync.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\Integrations\UNet_HLAPI\HlapiPlayer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Light_Rainbow.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_3D_Inverse.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MarkupReader.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blur_Tilt_Shift_V.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_superDot.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SensSlider.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Shutdown.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Recoil.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_HardLight.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\ItemCanBeNullAttribute.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\LiteNetLib4MirrorDiscovery.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Edge_BlackLine.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blur_Movie.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcViewAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_AAA_WaterDropPro.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SpectatorManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Windows\HeadlessConsole.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\BaseTypeRequiredAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\WorkStationUpgrader.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_BrokenGlass.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\UpnpNatDevice.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\GameonMenu.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MainMenuScript.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Discovery\ISearcher.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_LinearDodge.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\Messages\Requests\CreatePortMappingMessage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcAreaAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PrivateBetaWarning.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Cryptography\PBKDF2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\BloomComponent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_Difference.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Cryptography\AES.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Handcuffs.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Ascii.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_NightVision_4.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_LighterColor.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CustomVisibility.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Posterize.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Glasses_On_2.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\Messages\Requests\GetSpecificPortMappingEntryMessage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\VersionInfo.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Lift.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\AmplifyBokehData.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Manga_FlashWhite.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Light_Water2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PocketDimensionTeleport.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcMasterLocationFormatAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\TranslationBrowser.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ChangeKeyBinding.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\Integrations\UNet_HLAPI\HlapiCommsNetwork.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\DebugToScreenEnum.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\VSyncFPSlimit.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ChopperAutostart.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ReservedSlot.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\AmplifyStarlineCache.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\DemoMainUI.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DebugLogReader.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\WhiteList.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\NetManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Comics.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Vision_SniperScore.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DoorOpenTrigger.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CustomNetworkManager.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Exceptions\NatDeviceNotFoundException.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_Door.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Manga_Color.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Chromatical.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\GrenadeSettings.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\FileManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Oculus_NightVision1.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RemoteAdmin\RemoteAdminCryptographicManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SpawnpointManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Edge_Golden.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\Utils\FastBitConverter.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ConnInfoCloser.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerPermissions.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerPrefsSl.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\TournamentButton.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\TimeBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Vintage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\OOF_Controller.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Color_Adjust_Levels.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Outside.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\IESLights\IESToSpotlightCookie.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_SplitScreen.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\DemoCameraMovement.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_Dissipation.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Scp096PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MoreCast.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Scp939PlayerScript.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\Utils\INetSerializable.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_ShockWaveManual.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Headless.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DiscordJoinRequestEvent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\StarLineData.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CursorManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MarkupStyle.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ButtonStages.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFocuser.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_AAA_SuperComputer.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\RenameAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\PostProcessingContext.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\NineTailedFoxUnits.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_Lens.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_Divide.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ExplosionCameraShake.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\TranslationReader.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\Messages\Responses\GetGenericPortMappingEntryResponseMessage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Vision_Drost.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UserGroup.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Kino\DigitalGlitch.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\BrowserLerp.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ServerRoles.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\NGSS_ContactShadows.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MessageExpiredException.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Colors_Adjust_PreFilters.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\NetPacketPool.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_VHS.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PlyMovementSync.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_NewGlitch4.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Utf8.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_EXTRA_Rotation.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\IESLights\IESData.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\TaaComponent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DebugScreenController.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\NetStatistics.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_InverChromiLum.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MarkupImageRequest.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_AAA_WaterDrop.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\GrainModel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_ToolTip.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Color_Noise.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Pixelisation_OilPaintHQ.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\HeadlessBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RemoteAdmin\LargeDataPrinter.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\DemoUIElementAction.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AssertionMethodAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\TerminatesProgramAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\InstantHandleAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\BloomPasses.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Misc.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\UpnpNatDeviceInfo.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\IESLights\RuntimeIESImporter.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DecontaminationSpeaker.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PlayButton.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ICentralAuth.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_Exclusion.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\NetExceptions.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DiscordController.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_Dream.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RandomItemSpawner.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Assets\_Scripts\RemoteAdmin\DoorRemoteAdminButton.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Fly_Vision.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\WarheadLight.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_Heat.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_EnhancedComics.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_Geometry.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\NatDevice.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Gradients_Tech.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_Twist_Square.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PermissionsHandler.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ParticleCollision.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\LiftChecker.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\ImplicitUseTargetFlags.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Vcr.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\DemoUIElement.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\YAxisInventer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\TeslaGate.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\Integrations\UNet_HLAPI\Demo\HlapiPlayerController.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Mirror.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_NewGlitch6.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ServerLogs.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Scp049_2PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blur_Focus.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MiniEXR\MiniEXR.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\NicknameSync.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SpeakerIcon.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\CanBeNullAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Scp173PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ConfigFile.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\WeaponCamera.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\PostProcessingProfile.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ResolutionText.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Manga5.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_Modules.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Pixelisation_Dot.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Vision_Blood.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Gradients_NeonGradient.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_CullingCamera.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\GameConsole\Console.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MovingStatus.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DamageTypes.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcPartialViewAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MessageAuthenticationFailureException.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\InventoryDisplay.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MenuMusicManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_Luminosity.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\ItemNotNullAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\SpeechSynthesisEvent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\PostProcessingComponentCommandBuffer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Distorted.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Color_Chromatic_Plus.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_ARCADE_Fast.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\SequencedChannel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Cryptography\RSA.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\AmplifyGlare.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Rotate.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_Noise.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UBER_Global.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Pixelisation_OilPaint.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\MustUseReturnValueAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Pixel_Pixelisation.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CPPS_Sniper.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Screens.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ServerListManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\BottomPickerItem.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MiniEXR\HalfHelper.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Kino\AnalogGlitch.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\RazorSectionAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MicroHID_GFX.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\QueryUser.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Scp079PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Manga2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ControlPanelLights.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blizzard.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\LiteNetLib4MirrorTransport.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\RegexPatternAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Intercom.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcActionAttribute.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\Utils\NtpRequest.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\NotifyPropertyChangedInvocatorAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\AmplifyUtils.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\WarheadLightManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Broken_Screen.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\AISbaitso.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MessageUnallowedCharsException.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ExampleRuntime.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Point.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UBER_MaterialPreset.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\DiscoveryResponseMessage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CentralServer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ExplosionPhysicsForce.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RoundSummary.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\Messages\Responses\GetExternalIPAddressResponseMessage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Color_BrightContrastSaturation.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_3D_BlackHole.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Horror.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\FlashGrenade.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MarkupElement.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Pmp\PmpConstants.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Door.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_AAA_Blood_Hit.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_Flush.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Cryptography\Sha.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blur_Tilt_Shift.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CmdBinding.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\EditorProxySpeechSynthesisPlugin.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\VeryHighPerformance.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\NonFacilityCompatibility.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\IESLights\VerticalType.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Camera079.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\DitheringModel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_FogDisable.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\WeaponAnimator.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Color_Chromatic_Aberration.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\WeaponShootAnimation.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Manga.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\HostItemSpawner.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\FootstepSync.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Scp079Interaction.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\Messages\DiscoverDeviceMessage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Vision_Hell_Blood.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\Example02Proxy.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Gradients_FireGradient.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\PostProcessingComponent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Oculus_NightVision2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_DarkMatter.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\WWWEditMode.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\DemoUISlider.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnitySA\Utility\FOVZoom.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_Wanderer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Vision_Warp2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Convert_Normal.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Colors_BleachBypass.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RemoteAdmin\PlayerRequest.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\CollectionAccessType.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_Color.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\YamlConfig.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\Messages\Responses\DeletePortMappingResponseMessage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CustomGamemodes\ShootingRange.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspTypePropertyAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\GetSetAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RadioInitializator.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ItemBob.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\AmplifyBloomBase.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Halftone.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\RazorLayoutAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AlphaWarheadOutsitePanel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\VignetteComponent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\PostProcessingComponentBase.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_DarkerColor.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_Screen.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\TextChat.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_WideScreenHV.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcViewComponentViewAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_CompressionFX.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\HtmlAttributeValueAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_BlackHole.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\TextureMaterialLanguage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Noise_TV_3.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Vision_Psycho.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraPos079.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_Twist.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\Messages\Responses\AddPortMappingResponseMessage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Scp939_VisionController.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Pixelisation_DeepOilPaintHQ.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Lut_PlayWith.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Broken_Spliter.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\EventArgs\DeviceEventArgs.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SteamServerManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\StartupArguments.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\LinqTunnelAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\ISegmentTransport.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\StarDefData.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DistanceTo.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\BaseChannel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Colors_DarkColor.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SoundtrackManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ClipLanguageReplacer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AnimationFloatValue.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\OneOhSixContainer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\PrecisionModes.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ToggleableLight.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CentralAuth.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blur_Regular.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Retro_Loading.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CheckpointKiller.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_Multiply.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_3D_Scan_Scene.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_LinearLight.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Colors_HSV.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_WideScreenHorizontal.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_BigFace.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_3D_Fog_Smoke.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UBER_GlobalParams.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MyMicrophoneIndicator.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Atmosphere_Snow_8bits.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Colors_NewPosterize.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_Wave_Horizontal.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Color_Invert.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\Messages\Requests\DeletePortMappingMessage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_3D_Mirror.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UBER_DeferredParams.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Color_Sepia.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\BloomModel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\WMTablet.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ExtinguishableFire.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\Utils\NtpPacket.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ButtonWallAdjuster.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_Blend.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_Half_Sphere.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\GameMenu.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Old_Movie_2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_Culler.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Funk.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blur_Tilt_Shift_Hole.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Plasma.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\HtmlElementAttributesAttribute.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Exceptions\MappingException.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\FxaaComponent.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\NetPeer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_Tiles.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Vision_Rainbow.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\Example01Synthesis.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\IESLights\HorizontalType.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\LogType.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\TextLanguageReplacer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blur_Bloom.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\AmplifyLensFlare.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DiscordJoinEvent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Searching.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UBER_PresetParamSection.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_Sector.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Manga_Flash_Color.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\BanPlayer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcActionSelectorAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\BloodDrawer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Broadcast.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MaterialLanguageReplacer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_Occluder.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\NetDebug.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_Saturation.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\GameMenuButton.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Glasses_On_6.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Escape.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_FishEye.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\IESLights\PhotometricType.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Noise_TV_2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\FallDamage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcAreaViewLocationFormatAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\BroadcastMessage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DecontaminationGas.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\IESLights\EXRData.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_3D_Anomaly.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\WebGLSpeechSynthesisPlugin.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Pmp\PmpSearcher.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Laplacian.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Film_Grain.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RemoteAdmin\QueryProcessor.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnitySA\Characters\FirstPerson\MLook.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Hexagon.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\ResponseMessageBase.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcDisplayTemplateAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AchievementManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Pixelisation_Sweater.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\TutorialManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\ColorGradingComponent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Oculus_NightVision3.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\HttpQuery.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Special_Bubble.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\HeadlessCallbacks.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_3D_Shield.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_SplitScreen3D.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_PhotoshopFilters.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\BaseSpeechSynthesisPlugin.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\UserLutModel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MarkupCanvas.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CullingDisabler.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\FullscreenToggle.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_VHS_Tracking.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\NGSS_Directional.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_3D_Matrix.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_50.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Gradients_ElectricGradient.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_OldFilm_Cutting1.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RemoteAdmin\TextBasedRemoteAdmin.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\GameConsoleTransmission.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\TextMessage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerListElement.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\GunAim.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_VividLight.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Hypno.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Unixtime.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\DitheringComponent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerPositionManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Broken_Simple.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Pickup.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Edge_Sobel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\UpscaleQualityEnum.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_Subtract.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\KeyBindElement.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\VoiceResult.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_LinearBurn.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\Utils\NetDataReader.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MainMenuCamera.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_EyesVision_2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ClassPresetChooser.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Vision_Warp.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Spot.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Paper2.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspDataFieldsAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Vision_Crystal.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\BlastDoor.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ServerConsole.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_FPSController.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AntiFaker\AntiFakeCommands.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Lut_2_Lut.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_8bits_gb.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PickupTrigger.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Glow_Glow.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\CannotApplyEqualityOperatorAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\SpeechSynthesisUtterance.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Glitch1.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\InvokerParameterNameAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\MotionBlurComponent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Gradients_Ansi.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_AAA_SuperHexagon.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_PriorityQueue.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Real_VHS.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\NotNullAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ClassTypes.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Film_ColorPerfection.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Item.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_ZebraColor.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_3D_Distortion.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\KillTrigger.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_Portal.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Color_YUV.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ServerTime.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_ColorKey.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RemoteAdmin\UIController.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_ColorBurn.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ServerStatic.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ParticleExamples.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Interface079.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\Integrations\UNet_HLAPI\HlapiConn.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_GhostController.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Cryptography\ECDH.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Decal.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Rid.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_DemoUI.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Utils\Extensions.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RemoteAdmin\PlayerInfoQR.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_3D_Computer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\shooter.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityWebGLSpeechSynthesis\Example03ProxyManagement.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Glasses_On.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ExampleBuilder.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_WideScreenCircle.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Distortion_Aspiration.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_SoftLight.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\FogModel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Atmosphere_Rain_Pro.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\NoammoTrigger.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Colors_Brightness.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspDataFieldAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_VisDemoUI.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcSuppressViewErrorAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Embargo.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ResolutionManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_NightVisionFX.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SpectatorInterface.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Glitch_Mozaic.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Atmosphere_Rain_Pro_3D.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcPartialViewLocationFormatAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcAreaPartialViewLocationFormatAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Gradients_Therma.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DecontaminationLCZ.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CustomPostProcessingSight.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ResolutionButton.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ProjectorInitializer.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AssertionConditionType.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\SoapClient.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_TV_MovieNoise.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CrashDetector.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RemoteAdmin\PlayerRecord.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Upnp\Messages\Requests\GetExternalIPAddressMessage.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RemoteAdmin\DisplayDataOnScreen.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\FlickerableLight.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\RazorImportNamespaceAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Colors_HUE_Rotate.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_ULong.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\RazorWriteLiteralMethodAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Rain_RainFX.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_3D_Binary.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SteamManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\GlareLibType.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\LiteNetLib4MirrorNetworkManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ContentFitter.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\ContractAnnotationAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\MeansImplicitUseAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_3D_Ghost.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyBloom\ApertureShape.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RemoteAdmin\SubmenuSelector.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcEditorTemplateAttribute.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\Open.Nat\Utils\IPAddressesProvider.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\GrenadeManager.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\NGSS_NoiseTexture.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\WeaponLaser.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspChildControlTypeAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\IESLights\NormalizationMode.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\DefineAdder.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerStats.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\ScpInterfaces.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\NatPunchModule.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\MacroAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_8bits.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\ConnectionRequest.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\PocketDimensionGenerator.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UnityEngine\PostProcessing\GrainComponent.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\NetPacket.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Atmosphere_Rain.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Radio.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Edge_Sigmoid.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\LiteNetLib4Mirror\Dependencies\LiteNetLib\ReliableChannel.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\IESLights\IESParseException.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SkyboxFollower.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\UBER_RGBA_ByteArray.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\AspMvcMasterAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Gradients_Hue.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\RoundStart.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CentralAuthInterface.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\Dissonance\ProvidesContextAttribute.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\IESLights\ParseIES.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\SECTR_Graph.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\DiscordRpc.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CustomGamemodes\CustomGamemodeBase.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Blend2Camera_Hue.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_FX_Psycho.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Gradients_Rainbow.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MarkupWriter.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Glasses_On_3.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\CameraFilterPack_Drawing_Paper3.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Shader\Hidden_IES_IESToSpotlightCookie.shader" />
+    <None Include="Assets\Resources\camerafilterpack_antialiasing_fxaa.shader" />
+    <None Include="Assets\Resources\defaultenglish\Tutorial_02.txt" />
+    <None Include="Assets\Resources\camerafilterpack_pixelisation_sweater.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_heat.shader" />
+    <None Include="Assets\Resources\camerafilterpack_glow_glow_color.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_plasma.shader" />
+    <None Include="Assets\Resources\camerafilterpack_vision_rainbow.shader" />
+    <None Include="Assets\Resources\defaultenglish\Hints.txt" />
+    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
+    <None Include="Assets\Resources\camerafilterpack_tv_posterize.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_dot_circle.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_drunk.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\Resources\bloomfinal.shader" />
+    <None Include="Assets\Resources\defaultenglish\Connection_Errors.txt" />
+    <None Include="Assets\Resources\camerafilterpack_classic_thermalvision.shader" />
+    <None Include="Assets\Shader\Hidden_ChromaticAberration.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_dream2.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blur_noise.shader" />
+    <None Include="Assets\Resources\camerafilterpack_colors_adjust_levels.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_inverchromilum.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_vhs.shader" />
+    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_linearlight.shader" />
+    <None Include="Assets\Resources\camerafilterpack_color_brightcontrastsaturation.shader" />
+    <None Include="Assets\Resources\camerafilterpack_edge_sobel.shader" />
+    <None Include="Assets\Resources\camerafilterpack_3d_binary.shader" />
+    <None Include="Assets\Resources\camerafilterpack_3d_matrix.shader" />
+    <None Include="Assets\Resources\camerafilterpack_vhs_tracking.shader" />
+    <None Include="Assets\Resources\camerafilterpack_3d_snow.shader" />
+    <None Include="Assets\Resources\camerafilterpack_vision_auradistortion.shader" />
+    <None Include="Assets\Resources\camerafilterpack_eyesvision_1.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_widescreenvertical.shader" />
+    <None Include="Assets\Resources\shaders\depthoffield.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_superdot.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_grid.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_arcade.shader" />
+    <None Include="Assets\Resources\shaders\motionblur.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_flag.shader" />
+    <None Include="Assets\Resources\camerafilterpack_colors_hue_rotate.shader" />
+    <None Include="Assets\Shader\UBER - Metallic Setup_ Core.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_splitscreen.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_manga_color.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_halftone.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_digitalmatrix.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_splitscreen3d.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_old_movie_2.shader" />
+    <None Include="Assets\Resources\camerafilterpack_lut_mask.shader" />
+    <None Include="Assets\Resources\camerafilterpack_pixel_pixelisation.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_widescreenhorizontal.shader" />
+    <None Include="Assets\Resources\uber_copypropstexture.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_old.shader" />
+    <None Include="Assets\Resources\shaders\ambientocclusion.shader" />
+    <None Include="Assets\Resources\camerafilterpack_3d_computer.shader" />
+    <None Include="Assets\Resources\camerafilterpack_noise_tv.shader" />
+    <None Include="Assets\ScriptTemplates\52-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Shader\UBER - Specular Setup_ Core.shader" />
+    <None Include="Assets\Resources\camerafilterpack_colors_rgbclamp.shader" />
+    <None Include="Assets\Resources\camerafilterpack_color_chromatic_plus.shader" />
+    <None Include="Assets\Resources\camerafilterpack_nightvision_4.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_lineardodge.shader" />
+    <None Include="Assets\Resources\histogramrender.shader" />
+    <None Include="Assets\Resources\camerafilterpack_aaa_blood_hit.shader" />
+    <None Include="Assets\Resources\camerafilterpack_3d_anomaly.shader" />
+    <None Include="Assets\Resources\camerafilterpack_light_water2.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blur_blurry.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_hue.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_chromatical2.shader" />
+    <None Include="Assets\Resources\camerafilterpack_convert_normal.shader" />
+    <None Include="Assets\Resources\camerafilterpack_vision_sniperscore.shader" />
+    <None Include="Assets\Resources\camerafilterpack_lut_playwith.shader" />
+    <None Include="Assets\Resources\camerafilterpack_atmosphere_rain_pro_3d.shader" />
+    <None Include="Assets\Resources\camerafilterpack_colors_brightness.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_compressionfx.shader" />
+    <None Include="Assets\Resources\camerafilterpack_special_bubble.shader" />
+    <None Include="Assets\Shader\Vashchuk_RedDot(Standard).shader" />
+    <None Include="Assets\Resources\camerafilterpack_blur_regular.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blur_blurhole.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_newcellshading.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_twist.shader" />
+    <None Include="Assets\Resources\shaders\lutgen.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_video3d.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_toon.shader" />
+    <None Include="Assets\Resources\camerafilterpack_film_grain.shader" />
+    <None Include="Assets\Resources\camerafilterpack_3d_fog_smoke.shader" />
+    <None Include="Assets\Resources\camerafilterpack_vision_blood.shader" />
+    <None Include="Assets\Resources\camerafilterpack_film_colorperfection.shader" />
+    <None Include="Assets\Shader\Hidden_BilateralBlur.shader" />
+    <None Include="Assets\Resources\camerafilterpack_gradients_stripe.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blur_steam.shader" />
+    <None Include="Assets\Resources\shaders\uber.shader" />
+    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_laplacian.shader" />
+    <None Include="Assets\Mirror\version.txt" />
+    <None Include="Assets\Resources\camerafilterpack_fx_glitch2.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_manga4.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_videoflip.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_rgb.shader" />
+    <None Include="Assets\Shader\Sandbox_VolumetricLight.shader" />
+    <None Include="Assets\Resources\camerafilterpack_edge_edge_filter.shader" />
+    <None Include="Assets\Resources\camerafilterpack_broken_screen.shader" />
+    <None Include="Assets\Resources\camerafilterpack_color_rgb.shader" />
+    <None Include="Assets\Resources\camerafilterpack_colors_bleachbypass.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_exclusion.shader" />
+    <None Include="Assets\Resources\camerafilterpack_eyesvision_2.shader" />
+    <None Include="Assets\Resources\shaders\builtindebugviews.shader" />
+    <None Include="Assets\Resources\shaders\tmp_sdf-mobile overlay.shader" />
+    <None Include="Assets\Resources\defaultenglish\Class_Descriptions.txt" />
+    <None Include="Assets\Resources\camerafilterpack_tv_widescreencircle.shader" />
+    <None Include="Assets\Resources\camerafilterpack_newglitch4.shader" />
+    <None Include="Assets\Resources\camerafilterpack_glasses_on.shader" />
+    <None Include="Assets\Shader\Hidden_IES_VerticalFlip.shader" />
+    <None Include="Assets\ScriptTemplates\56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
+    <None Include="Assets\Shader\Hidden_GlobalFog.shader" />
+    <None Include="Assets\Resources\camerafilterpack_lut_2_lut.shader" />
+    <None Include="Assets\Resources\tonemappingcolorgrading.shader" />
+    <None Include="Assets\Resources\camerafilterpack_oldfilm_cutting2.shader" />
+    <None Include="Assets\Resources\camerafilterpack_lut_plus.shader" />
+    <None Include="Assets\Resources\camerafilterpack_gradients_neongradient.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_mirror.shader" />
+    <None Include="Assets\ScriptTemplates\51-Mirror__Network Manager With Actions-NewNetworkManagerWithActions.cs.txt" />
+    <None Include="Assets\Resources\camerafilterpack_fx_glitch3.shader" />
+    <None Include="Assets\ScriptTemplates\53-Mirror__Network Behaviour With Actions-NewNetworkBehaviourWithActions.cs.txt" />
+    <None Include="Assets\Resources\camerafilterpack_oculus_nightvision5.shader" />
+    <None Include="Assets\Resources\camerafilterpack_3d_shield.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_linearburn.shader" />
+    <None Include="Assets\Resources\camerafilterpack_colors_adjust_colorrgb.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_arcade_fast.shader" />
+    <None Include="Assets\Resources\camerafilterpack_newglitch7.shader" />
+    <None Include="Assets\Resources\shaders\tmp_bitmap-custom-atlas.shader" />
+    <None Include="Assets\Resources\camerafilterpack_noise_tv_2.shader" />
+    <None Include="Assets\Shader\Hidden_IES_FadeSpotlightCookieEdges.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_funk.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_chromatical.shader" />
+    <None Include="Assets\Resources\camerafilterpack_newglitch5.shader" />
+    <None Include="Assets\Resources\defaultenglish\Inventory.txt" />
+    <None Include="Assets\Resources\defaultenglish\Death_Causes.txt" />
+    <None Include="Assets\Resources\camerafilterpack_vision_aura.shader" />
+    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
+    <None Include="Assets\Resources\camerafilterpack_alien_vision.shader" />
+    <None Include="Assets\Resources\camerafilterpack_3d_myst.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Resources\camerafilterpack_sharpen_sharpen.shader" />
+    <None Include="Assets\Resources\camerafilterpack_nightvisionfx.shader" />
+    <None Include="Assets\Resources\camerafilterpack_light_rainbow.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_brokenglass.shader" />
+    <None Include="Assets\Resources\camerafilterpack_3d_scan_scene.shader" />
+    <None Include="Assets\Resources\shaders\eyeadaptation.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_lightercolor.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_vintage.shader" />
+    <None Include="Assets\Resources\camerafilterpack_oculus_nightvision2.shader" />
+    <None Include="Assets\Resources\camerafilterpack_aaa_waterdrop.shader" />
+    <None Include="Assets\Resources\camerafilterpack_vision_warp2.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_manga_flashwhite.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_divide.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_wave_horizontal.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_zebracolor.shader" />
+    <None Include="Assets\Resources\shaders\tmp_sdf-mobile.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_comics.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_manga3.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_shockwavemanual.shader" />
+    <None Include="Assets\Resources\bluenoise64\COPYING.txt" />
+    <None Include="Assets\Resources\camerafilterpack_oculus_nightvision3.shader" />
+    <None Include="Assets\Resources\camerafilterpack_pixelisation_dot.shader" />
+    <None Include="Assets\Resources\camerafilterpack_real_vhs.shader" />
+    <None Include="Assets\Resources\camerafilterpack_glow_glow.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_digitalmatrixdistortion.shader" />
+    <None Include="Assets\Resources\camerafilterpack_colors_adjust_prefilters.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_arcade_2.shader" />
+    <None Include="Assets\Resources\camerafilterpack_pixelisation_oilpainthq.shader" />
+    <None Include="Assets\Resources\camerafilterpack_lut_testmode.shader" />
+    <None Include="Assets\Shader\Hidden_SeparableBlur.shader" />
+    <None Include="Assets\Resources\camerafilterpack_gradients_firegradient.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_hardmix.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_vhs_rewind.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_screen.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_8bits_gb.shader" />
+    <None Include="Assets\Resources\camerafilterpack_newglitch3.shader" />
+    <None Include="Assets\Resources\defaultenglish\Tutorial_01.txt" />
+    <None Include="Assets\Resources\shaders\tmp_sdf.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_paper3.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_earthquake.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_bluescreen.shader" />
+    <None Include="Assets\Mirror\Readme.txt" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_enhancedcomics.shader" />
+    <None Include="Assets\Resources\shaders\tmp_sdf-mobile masking.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_vcr.shader" />
+    <None Include="Assets\Resources\camerafilterpack_rainfx.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_crosshatch.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_colorkey.shader" />
+    <None Include="Assets\Resources\bloom.shader" />
+    <None Include="Assets\Resources\camerafilterpack_edge_sigmoid.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_widescreenhv.shader" />
+    <None Include="Assets\Resources\camerafilterpack_vision_drost.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blur_dithering2x2.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_aspiration.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_50.shader" />
+    <None Include="Assets\Resources\bluenoise64\LICENSE.txt" />
+    <None Include="Assets\Resources\camerafilterpack_atmosphere_fog.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_dream.shader" />
+    <None Include="Assets\Resources\camerafilterpack_edge_neon.shader" />
+    <None Include="Assets\Resources\camerafilterpack_gradients_therma.shader" />
+    <None Include="Assets\Shader\Hidden_Vignetting.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_cellshading2.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_greenscreen.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_darken.shader" />
+    <None Include="Assets\Resources\camerafilterpack_extra_rotation.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_ascii.shader" />
+    <None Include="Assets\Resources\shaders\graingen.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_manga5.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blur_radial_fast.shader" />
+    <None Include="Assets\Resources\shaders\bloom.shader" />
+    <None Include="Assets\Resources\camerafilterpack_light_water.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_drunk2.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blur_tilt_shift_hole.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_colorburn.shader" />
+    <None Include="Assets\ScriptTemplates\57-Mirror__Network Transform-NewNetworkTransform.cs.txt" />
+    <None Include="Assets\Resources\camerafilterpack_aaa_blood_plus.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Resources\camerafilterpack_color_yuv.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blur_tilt_shift.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_noise.shader" />
+    <None Include="Assets\Resources\defaultenglish\Tutorial_03.txt" />
+    <None Include="Assets\Resources\camerafilterpack_vision_tunnel.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_screens.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_movienoise.shader" />
+    <None Include="Assets\Resources\camerafilterpack_gradients_tech.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_manga2.shader" />
+    <None Include="Assets\Resources\camerafilterpack_vision_blood_fast.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\ScriptTemplates\52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt" />
+    <None Include="Assets\Resources\camerafilterpack_vision_warp.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_fisheye.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Resources\camerafilterpack_newglitch6.shader" />
+    <None Include="Assets\Resources\camerafilterpack_color_switching.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_difference.shader" />
+    <None Include="Assets\Resources\camerafilterpack_3d_ghost.shader" />
+    <None Include="Assets\Resources\camerafilterpack_aaa_supercomputer.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blur_tilt_shift_v.shader" />
+    <None Include="Assets\Resources\shaders\taa.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_flush.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_manga_flash.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_luminosity.shader" />
+    <None Include="Assets\Resources\shaders\fxaa.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_manga.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Resources\camerafilterpack_lut_simple.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_hexagon.shader" />
+    <None Include="Assets\Resources\defaultenglish\Facility.txt" />
+    <None Include="Assets\Resources\camerafilterpack_edge_blackline.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blizzard.shader" />
+    <None Include="Assets\Resources\camerafilterpack_colors_hsv.shader" />
+    <None Include="Assets\Resources\camerafilterpack_oculus_thermavision.shader" />
+    <None Include="Assets\Resources\camerafilterpack_noise_tv_3.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_hardlight.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_twist_square.shader" />
+    <None Include="Assets\Resources\camerafilterpack_aaa_bloodonscreen.shader" />
+    <None Include="Assets\Resources\shaders\tmp_sprite.shader" />
+    <None Include="Assets\Resources\camerafilterpack_colors_darkcolor.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_horror.shader" />
+    <None Include="Assets\Resources\camerafilterpack_atmosphere_rain_pro.shader" />
+    <None Include="Assets\Resources\defaultenglish\MainMenu.txt" />
+    <None Include="Assets\Resources\camerafilterpack_tv_planetmars.shader" />
+    <None Include="Assets\Resources\camerafilterpack_edge_golden.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_hypno.shader" />
+    <None Include="Assets\Resources\shaders\tmp_bitmap.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_shockwave.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_water_drop.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_paper2.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_8bits.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_half_sphere.shader" />
+    <None Include="Assets\Resources\camerafilterpack_3d_distortion.shader" />
+    <None Include="Assets\Shader\Hidden_Kino_Glitch_Analog.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_distorted.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_subtract.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_psycho.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blur_bloom.shader" />
+    <None Include="Assets\Resources\camerafilterpack_aaa_blood.shader" />
+    <None Include="Assets\Shader\Hidden_IES_HorizontalFlip.shader" />
+    <None Include="Assets\Resources\camerafilterpack_gradients_rainbow.shader" />
+    <None Include="Assets\Resources\camerafilterpack_3d_blackhole.shader" />
+    <None Include="Assets\Resources\camerafilterpack_vision_plasma.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_scan.shader" />
+    <None Include="Assets\Resources\camerafilterpack_vision_psycho.shader" />
+    <None Include="Assets\Mirror\Plugins\Mono.Cecil\License.txt" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_pinlight.shader" />
+    <None Include="Assets\Resources\camerafilterpack_atmosphere_rain.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_brokenglass2.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_glitch1.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_hexagon_black.shader" />
+    <None Include="Assets\Resources\camerafilterpack_gradients_hue.shader" />
+    <None Include="Assets\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Resources\shaders\fog.shader" />
+    <None Include="Assets\Resources\defaultenglish\Class_Names.txt" />
+    <None Include="Assets\ScriptTemplates\55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />
+    <None Include="Assets\Resources\camerafilterpack_gradients_ansi.shader" />
+    <None Include="Assets\Resources\camerafilterpack_color_invert.shader" />
+    <None Include="Assets\Shader\Projector_Multiply.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_darkercolor.shader" />
+    <None Include="Assets\Shader\UBER - Metallic Setup_ POM Advanced.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_paper.shader" />
+    <None Include="Assets\Resources\shaders\tmp_bitmap-mobile.shader" />
+    <None Include="Assets\Resources\defaultenglish\Legancy_Interfaces.txt" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_color.shader" />
+    <None Include="Assets\Resources\shaders\tmp_sdf overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Resources\camerafilterpack_color_sepia.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_colordodge.shader" />
+    <None Include="Assets\ScriptTemplates\54-Mirror__Custom Interest Management-CustomInterestManagement.cs.txt" />
+    <None Include="Assets\Resources\camerafilterpack_color_grayscale.shader" />
+    <None Include="Assets\Resources\camerafilterpack_colors_adjust_fullcolors.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_80.shader" />
+    <None Include="Assets\Resources\bloom_0.shader" />
+    <None Include="Assets\Shader\Custom_SurfaceShader_VC.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_vignetting.shader" />
+    <None Include="Assets\Resources\camerafilterpack_3d_mirror.shader" />
+    <None Include="Assets\Resources\camerafilterpack_color_contrast.shader" />
+    <None Include="Assets\Resources\camerafilterpack_vision_hell_blood.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_artefact.shader" />
+    <None Include="Assets\Resources\camerafilterpack_lut_2_lut_extra.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_softlight.shader" />
+    <None Include="Assets\Resources\camerafilterpack_colors_newposterize.shader" />
+    <None Include="Assets\Resources\shaders\screenspacereflection.shader" />
+    <None Include="Assets\Resources\camerafilterpack_3d_inverse.shader" />
+    <None Include="Assets\Resources\shaders\tmp_sdf-surface-mobile.shader" />
+    <None Include="Assets\Resources\camerafilterpack_pixelisation_deepoilpainthq.shader" />
+    <None Include="Assets\Resources\camerafilterpack_vision_crystal.shader" />
+    <None Include="Assets\Resources\camerafilterpack_gradients_desert.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\ScriptTemplates\50-Mirror__Network Manager-NewNetworkManager.cs.txt" />
+    <None Include="Assets\Shader\Hidden_NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_led.shader" />
+    <None Include="Assets\Shader\IES_IESToCubemap.shader" />
+    <None Include="Assets\Resources\camerafilterpack_oldfilm_cutting1.shader" />
+    <None Include="Assets\Resources\camerafilterpack_pixelisation_oilpaint.shader" />
+    <None Include="Assets\Resources\camerafilterpack_newglitch1.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_cellshading.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_bigface.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_vividlight.shader" />
+    <None Include="Assets\ScriptTemplates\54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />
+    <None Include="Assets\Resources\camerafilterpack_broken_simple.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_lens.shader" />
+    <None Include="Assets\Resources\camerafilterpack_extra_showfps.shader" />
+    <None Include="Assets\Resources\camerafilterpack_glasses_onx.shader" />
+    <None Include="Assets\Shader\Hidden_NoiseAndGrain.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Shader\Outline Shaders_Outline 3.1.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_blend.shader" />
+    <None Include="Assets\Resources\camerafilterpack_color_noise.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_dissipation.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blur_gaussianblur.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_old_movie.shader" />
+    <None Include="Assets\Resources\shaders\blit.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_darkmatter.shader" />
+    <None Include="Assets\Resources\camerafilterpack_3d_dust.shader" />
+    <None Include="Assets\Resources\camerafilterpack_colors_threshold.shader" />
+    <None Include="Assets\Resources\camerafilterpack_color_chromatic_aberration.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_blackhole.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_lines.shader" />
+    <None Include="Assets\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Resources\camerafilterpack_glitch_mozaic.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_saturation.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blur_movie.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fx_spot.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_blueprint.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_curve.shader" />
+    <None Include="Assets\Resources\camerafilterpack_retro_loading.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_overlay.shader" />
+    <None Include="Assets\Resources\camerafilterpack_tv_tiles.shader" />
+    <None Include="Assets\Resources\camerafilterpack_aaa_superhexagon.shader" />
+    <None Include="Assets\Resources\camerafilterpack_light_rainbow2.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blur_focus.shader" />
+    <None Include="Assets\Resources\camerafilterpack_gradients_electricgradient.shader" />
+    <None Include="Assets\Resources\camerafilterpack_atmosphere_snow_8bits.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blur_radial.shader" />
+    <None Include="Assets\Resources\camerafilterpack_distortion_noise.shader" />
+    <None Include="Assets\Resources\camerafilterpack_fly_vision.shader" />
+    <None Include="Assets\Resources\camerafilterpack_drawing_manga_flash_color.shader" />
+    <None Include="Assets\Resources\camerafilterpack_aaa_waterdroppro.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blur_ditheroffset.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_lighten.shader" />
+    <None Include="Assets\Resources\camerafilterpack_broken_spliter.shader" />
+    <None Include="Assets\Shader\Hidden_BlitAdd.shader" />
+    <None Include="Assets\Resources\camerafilterpack_blend2camera_multiply.shader" />
+    <None Include="Assets\Resources\camerafilterpack_oculus_nightvision1.shader" />
+    <None Include="Assets\Mirror\Hosting\Readme.txt" />
+    <None Include="Assets\Resources\shaders\tmp_sdf-surface.shader" />
+    <None Include="Assets\Resources\camerafilterpack_newglitch2.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.CecilX">
+      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.CecilX.Mdb">
+      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Nat">
+      <HintPath>Assets\Plugins\Mono.Nat.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mirror.BouncyCastle.Cryptography">
+      <HintPath>Assets\Mirror\Transports\Encryption\Plugins\BouncyCastle\Mirror.BouncyCastle.Cryptography.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.CecilX.Pdb">
+      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.CecilX.Rocks">
+      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="amazon-gameon-api">
+      <HintPath>Assets\Plugins\amazon-gameon-api.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ch.sycoforge.Unity.Runtime">
+      <HintPath>Assets\Plugins\ch.sycoforge.Unity.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>Assets\Plugins\BouncyCastle.Crypto.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Facepunch.Steamworks">
+      <HintPath>Assets\Plugins\Facepunch.Steamworks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="zxing.unity">
+      <HintPath>Assets\Plugins\zxing.unity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ch.sycoforge.Logging">
+      <HintPath>Assets\Plugins\ch.sycoforge.Logging.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ch.sycoforge.Decal">
+      <HintPath>Assets\Plugins\ch.sycoforge.Decal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AmplifyBloom">
+      <HintPath>Assets\Plugins\AmplifyBloom.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.GradleProject">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Microsoft.CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.DataSetExtensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:\Unite\Editor\2022.3.62f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.2D.Internal">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Internal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{BA93E0E8-1147-5CEE-849A-3F9EA0DFEB59}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Editor.csproj">
+      <Project>{AFA03FF9-236F-016F-C0FE-48AE71997CCB}</Project>
+      <Name>Mirror.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="EncryptionTransportEditor.csproj">
+      <Project>{A12CDD9A-1D53-D4DC-C210-9607828D79D1}</Project>
+      <Name>EncryptionTransportEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.csproj">
+      <Project>{36864B45-ED68-E62B-6F5D-8CC58A4E8878}</Project>
+      <Name>Mirror</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Transports.csproj">
+      <Project>{51BD20E4-10E2-8D74-F62E-46B214E8E89C}</Project>
+      <Name>Mirror.Transports</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Components.csproj">
+      <Project>{21A796C8-1528-9FE0-C09F-2C7007B032A9}</Project>
+      <Name>Mirror.Components</Name>
+    </ProjectReference>
+    <ProjectReference Include="Telepathy.csproj">
+      <Project>{DC2203C4-C6C5-9619-4F16-8B69C70640B5}</Project>
+      <Name>Telepathy</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleWebTransport.csproj">
+      <Project>{04DCD70B-1894-E159-2FFF-217F15E5F6D0}</Project>
+      <Name>SimpleWebTransport</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.CompilerSymbols.csproj">
+      <Project>{7FB34E96-24DF-E538-6A6D-A2E9C7FCCB4D}</Project>
+      <Name>Mirror.CompilerSymbols</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Authenticators.csproj">
+      <Project>{5EFBC170-BD04-F830-9A75-A8FE739E3BE7}</Project>
+      <Name>Mirror.Authenticators</Name>
+    </ProjectReference>
+    <ProjectReference Include="Edgegap.csproj">
+      <Project>{98191C31-7C38-A0C9-2457-EDF835FFA5C6}</Project>
+      <Name>Edgegap</Name>
+    </ProjectReference>
+    <ProjectReference Include="kcp2k.csproj">
+      <Project>{957692B6-BA5B-2AC8-70DF-3953D1BF1463}</Project>
+      <Name>kcp2k</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
