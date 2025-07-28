@@ -1,6 +1,6 @@
 # SCPFL_REMAKA
 
-Decompiled and partially recovered version of **SCP: Secret Laboratory** 8.1.3, ported to **Unity 2022.3.62f1** using **Universal Render Pipeline (URP)**.
+Decompiled and partially recovered version of **SCP: Secret Laboratory** 8.0.1, ported to **Unity 2022.3.62f1** using **Universal Render Pipeline (URP)**.
 
 The goal of this project is to restore and adapt the original Mono-based build of SCP:SL to modern Unity and rendering systems, aiming for a fully functional and potentially extendable version.
 
@@ -67,7 +67,7 @@ Feel free to:
 
 Our long-term vision for `SCPFL_REMAKA` includes:
 
-1.  **Full Restoration:** Achieving a state where the core gameplay mechanics from SCP:SL 8.1.3 are functional within Unity 2022.3.62f1 (URP).
+1.  **Full Restoration:** Achieving a state where the core gameplay mechanics from SCP:SL 8.0.1 are functional within Unity 2022.3.62f1 (URP).
 2.  **Code Modernization:** Transitioning the codebase to leverage modern Unity features and C# best practices.
 3.  **Community-Driven Development:** Fostering a collaborative environment for ongoing improvements and potential new features.
 4.  **Educational Resource:** Serving as a learning resource for reverse engineering game projects and Unity porting, with documentation available in **both English and Russian**.
@@ -91,7 +91,7 @@ Use at your risk. This repository is not affiliated with or endorsed by Northwoo
 
 # SCPFL_REMAKA (Русская версия)
 
-Декомпилированная и частично восстановленная версия **SCP: Secret Laboratory** 8.1.3, портированная на **Unity 2022.3.62f1** с использованием **Universal Render Pipeline (URP)**.
+Декомпилированная и частично восстановленная версия **SCP: Secret Laboratory** 8.0.1, портированная на **Unity 2022.3.62f1** с использованием **Universal Render Pipeline (URP)**.
 
 Цель этого проекта — восстановить и адаптировать оригинальную сборку SCP:SL на основе Mono к современным системам Unity и рендеринга, стремясь к полностью функциональной и потенциально расширяемой версии.
 
@@ -158,7 +158,7 @@ Use at your risk. This repository is not affiliated with or endorsed by Northwoo
 
 Наше долгосрочное видение для `SCPFL_REMAKA` включает:
 
-1.  **Полное восстановление:** Достижение состояния, при котором основные игровые механики SCP:SL 8.1.3 будут функционировать в Unity 2022.3.62f1 (URP).
+1.  **Полное восстановление:** Достижение состояния, при котором основные игровые механики SCP:SL 8.0.1 будут функционировать в Unity 2022.3.62f1 (URP).
 2.  **Модернизация кода:** Переход кодовой базы на использование современных функций Unity и лучших практик C#.
 3.  **Развитие, управляемое сообществом:** Создание среды для совместной работы над постоянными улучшениями и потенциальными новыми функциями.
 4.  **Образовательный ресурс:** Использование проекта в качестве учебного пособия по реверс-инжинирингу игровых проектов и портированию на Unity, с документацией, доступной **как на английском, так и на русском языках**.
